@@ -1,7 +1,9 @@
-{
+
+  {
+    "version": 2,
     "builds": [
       {
-        "src": "artisan",
+        "src": "api/index.php",
         "use": "@vercel/php"
       },
       {
@@ -17,4 +19,3 @@
       }
     ]
   }
-  
