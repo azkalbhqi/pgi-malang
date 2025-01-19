@@ -9,12 +9,12 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "vite build",
+    "buildCommand": "composer install && vite build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://pgi-malang.vercel.app/",
+        "APP_URL": "https://pgi-malang.vercel.app",
         "APP_KEY": "base64:c8XJ7RQY+vu+9TB4xwdgazidMjBTAIlNlqrhf3tyIlA=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
