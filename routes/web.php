@@ -5,8 +5,6 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Foundation\Application;
-use App\Models\Blog;
-use App\Models\Gallery;
 
 
 
