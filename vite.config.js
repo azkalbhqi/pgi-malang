@@ -6,7 +6,7 @@ export default defineConfig({
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
-            mode: process.env.NODE_ENV || 'development',  // Pastikan mode tidak undefined
+            mode: process.env.NODE_ENV || 'production',  // Pastikan mode tidak undefined
         }),
         
     ],
