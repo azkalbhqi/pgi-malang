@@ -9,7 +9,7 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "composer install && vite build",
+    "buildCommand": "vite build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
@@ -29,6 +29,7 @@
         "DB_HOST": "tst3s.h.filess.io",
         "DB_PORT": "3307",
         "DB_DATABASE": "PGIMALANG_squarejet",
-        "DB_USERNAME": "PGIMALANG_squarejet"
+        "DB_USERNAME": "PGIMALANG_squarejet",
+        "FILESYSTEM_DRIVER": "public"
     }
 }
