@@ -9,7 +9,7 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "php artisan config:clear && php artisan config:cache && php artisan cache:clear && php artisan optimize && php artisan storage:link && vite build",
+    "buildCommand": "vite build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
