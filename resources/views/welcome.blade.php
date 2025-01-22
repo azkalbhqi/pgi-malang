@@ -1,6 +1,6 @@
 <x-layout-app>
    
-    <section class="  bg-center bg-cover bg-no-repeat bg-gray-300 bg-blend-multiply min-h-screen w-full" style="background-image: url('https://images.unsplash.com/photo-1500948814185-c95ddc695d23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdvbGZ8ZW58MHx8MHx8fDA%3D');">
+    <section class="  bg-center bg-cover bg-no-repeat bg-gray-300 bg-blend-multiply min-h-screen w-full" style="background-image: url('https://ibb.co.com/sjxnYCb');">
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Official Website PGI Kota Malang</h1>
             <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Kami berkomitmen mengembangkan golf di Indonesia, mencetak atlet berprestasi, serta mempererat persaudaraan. Lebih dari sekadar kompetisi, golf adalah tentang karakter, sportivitas, dan kebersamaan.</p>
