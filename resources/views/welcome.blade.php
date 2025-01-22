@@ -91,11 +91,10 @@
         </div>
         <div class="flex justify-center">
             <div class="w-1/2 grid grid-cols-2 md:grid-cols-4 gap-4">
-                
                 @if ($latestImages->isEmpty())
-                    @for($i = 0; $i < 5; $i++)
+                    @for ($i = 0; $i < 4; $i++) {{-- Adjusted to 4 for better grid balance --}}
                         <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://picsum.photos/id/66/200/300" alt="{{ $image->alt }}">
+                            <img class="h-auto max-w-full rounded-lg" src="https://picsum.photos/200/300?random={{ $i }}" alt="Placeholder Image">
                         </div>
                     @endfor
                 @else
@@ -107,9 +106,8 @@
                 @endif
             </div>
         </div>
-        
-        
     </section>
+    
 
   
 </x-layout-app>
