@@ -95,7 +95,7 @@
                 @if ($latestImages->isEmpty())
                     @for($i = 0; $i < 5; $i++)
                         <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://picsum.photos/id/{{$i}}/200/300" alt="{{ $image->alt }}">
+                            <img class="h-auto max-w-full rounded-lg" src="https://picsum.photos/id/66/200/300" alt="{{ $image->alt }}">
                         </div>
                     @endfor
                 @else
