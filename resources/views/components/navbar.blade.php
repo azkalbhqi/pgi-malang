@@ -1,6 +1,6 @@
 <div class="navbar glass">
     <div class="flex-1 mx-5">
-      <img class="w-16"  src={{ asset('storage/assets/logo_pgi.png') }} alt="Logo">
+      <img class="w-16"  src={{ asset('img/logo_pgi.png') }} alt="Logo">
       <a class="btn btn-ghost text-xl">PGI Kota Malang</a>
     </div>
     <div class="flex-none px-5">

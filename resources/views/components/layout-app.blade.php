@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>Official PGI Kota Malang</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="icon" href="{!! asset('storage/assets/logo_pgi.png') !!}"/>
+    <link rel="icon" href="{!! asset('img/logo_pgi.png') !!}"/>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     
 </head>
